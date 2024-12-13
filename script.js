@@ -554,9 +554,9 @@ var Input = {
   canvas.style.backgroundColor = "black";
   ctx.strokeStyle = "white";
   //setupSimple();//Just the very basic string
-  //setupTentacle();//Tentacle that reaches for mouse
-  //setupLizard(.5,100,128);//Literal centipede
-  //setupSquid(2,8);//Spidery thing
+  setupTentacle();//Tentacle that reaches for mouse
+  setupLizard(.5,100,128);//Literal centipede
+  setupSquid(2,8);//Spidery thing
   var legNum = Math.floor(1 + Math.random() * 12);
   setupLizard(
     8 / Math.sqrt(legNum),
